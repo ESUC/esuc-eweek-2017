@@ -1,0 +1,109 @@
+
+
+@media all and (orientation:portrait){
+	.cogs-wrapper {
+		display: -webkit-box;
+		position: relative;
+		margin-left: 15% !important;
+	}
+}
+
+@media all and (orientation:landscape){
+	.cogs-wrapper {
+	position: relative;
+	display: -webkit-box;
+	margin-top: 100px;
+}
+}
+#cog-small img{
+	position: relative;
+	left: -100px;
+	top: 215px;
+	width: 150px;
+	height: auto;
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-animation: cog 5s infinite;
+	-moz-animation: cog 5s infinite;
+	-ms-animation: cog 5s infinite;
+	animation: cog 5s infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear
+}
+
+@-webkit-keyframes cog-anti {
+100%{ -webkit-transform: rotate(-360deg)}
+}
+@-moz-keyframes cog-anti {
+100%{ -webkit-transform: rotate(-360deg)}
+}
+@-ms-keyframes cog-anti {
+100%{ -webkit-transform: rotate(-360deg)}
+}
+@keyframes cog-anti {
+100%{ 
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	transform: rotate(-360deg)
+}
+}
+
+#cog-large img {
+	width: 350px;
+	height: auto;
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-animation: cog 5s infinite;
+	-moz-animation: cog 5s infinite;
+	-ms-animation: cog 5s infinite;
+	animation: cog 5s infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear
+}
+
+#cog-medium img {
+	position: relative;
+	top:-1%;
+	left: -3%;
+	width: 250px;
+	height: auto;
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-animation: cog-anti 5s infinite;
+	-moz-animation: cog-anti 5s infinite;
+	-ms-animation: cog-anti 5s infinite;
+	animation: cog-anti 5s infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear
+}
+
+@-webkit-keyframes cog {
+100%{ -webkit-transform: rotate(360deg)}
+}
+@-moz-keyframes cog {
+100%{ -webkit-transform: rotate(360deg)}
+}
+@-ms-keyframes cog {
+100%{ -webkit-transform: rotate(360deg)}
+}
+@keyframes cog {
+100%{ 
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg)
+}
+}
