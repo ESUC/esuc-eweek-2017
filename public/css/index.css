@@ -135,12 +135,17 @@ to {
  #events h1 {
 	 padding-top: 20px;
 	font-family: 'Fredoka One', cursive;
-	color: #ffeb3b;
+	color:#ff9800;
 	text-shadow: 5px 3px 0px #00b0ff;
 }
 
 #events {
-	height: 100vh;
+	background:#fff176;
+
+}
+
+.container {
+	background:#fff176;
 }
 
 #events h2 {
@@ -172,6 +177,6 @@ to {
 
 @media all and (orientation:portrait){
 	#events .time {
-		font-size: x-large;
+		font-size: 1.3em;
 	}	
 }
